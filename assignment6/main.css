@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(102, 102, 168);
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
+
+}
+
+@keyframes Completebackground{
+    0% {background-color: rgb(102, 102, 168);}
+    25% {background-color: rgb(168, 102, 154);}
+    50% {background-color: rgb(168, 142, 102);}
+    100% {background-color: rgb(102, 168, 154);}
+}
+
+#AnimationBackground{
+    animation-name: Completebackground;
+    height: 100%;
+    width: 100%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#myLogin{
+    padding-top: 10px;
+    margin-left: 10px; 
+    width: 360px;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+#myForm{
+    padding-top: 10px;
+    margin-left: 10px; 
+    width: 480px;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 720px;
+    background-color: aliceblue;
+}
+
+#RigisterHeader{
+    border: 0px solid black;
+}
+
+#RegisterHeaderText{
+    padding-top: 15px;
+    font-size: x-large;margin-bottom: 5px;
+}
+
+form{
+    width:  300px;
+    margin-left: 20px;
+}
+
+input{
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+input[type = "radio"]{
+    width: 20px;
+}
+input[type = "submit"]{
+    height: 35px;
+    border-radius: 5px;
+    background-color:turquoise;
+}
+input[type = "reset"]{
+    height: 35px;
+    border-radius: 5px;
+    background-color:palevioletred;
+}
+
+span{
+    color: gray;
+    font-size:small;
+}

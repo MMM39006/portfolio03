@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(122, 126, 191);
+}
+
+img{
+    width: auto;
+}
+
+div{
+    /* background-color: white; */
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#Header{
+    grid-column: 1 / span 3;
+    height: 150px;
+    font-size: 100px;
+    background-color:rgb(100, 103, 153);
+    text-align: center;
+}
+#Left{
+    grid-column: 1 / span 1;
+    text-align: center;
+    border: 0px
+}
+
+#Right{
+    grid-column: 3 / span 1;
+    text-align: center;
+    border: 0px
+}
+
+#topic1{
+    grid-column: 2 / span 1;
+    color: yellow;
+    background-color: rgb(28, 65, 134);  
+    height: 50px;
+}
+
+#comment1{
+    grid-column: 2 / span 1;
+    color: aliceblue;
+    background-color: rgb(28, 65, 134);  
+    height: 600px;
+}
+
+#comment2{
+    grid-column: 2 / span 1;
+    color: aliceblue;
+    background-color: rgb(28, 65, 134);  
+    height: 100px;
+
+}
+
+span{
+    color: gray;
+}
+
+#text1{
+    grid-column: 2 / span 1;
+}
+
+#PoseAndClear{
+    grid-column: 2 / span 1;
+    text-align: left;
+    border: 0px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 60% auto;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 3px solid black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}

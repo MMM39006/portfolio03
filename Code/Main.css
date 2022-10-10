@@ -1,0 +1,650 @@
+.grid-container{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% auto 33%;
+}
+.grid-container > div{
+    /* border: 1px solid black; */
+    font-size: 10px;
+    text-align: center;
+}
+#GridBackground{
+    width: 1800px;
+    background-color: white;
+    border-radius: 25px;
+}
+h6{
+    font-family:Arial, Helvetica, sans-serif
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-color: #355C7D;
+    background-image: linear-gradient(to bottom right,#355C7D, #C06C84);
+}
+hr{
+    width: 80%;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:#C06C84;
+    text-decoration:underline;
+}
+#black{
+    border: 3px solid black; 
+}
+
+#HeaderProfile{
+    grid-column: 1 / span 3;
+}
+#TextProfile{
+    text-align: left;
+    font-size: x-large;
+    padding-left: 120px;
+    transform: translate(0px,300px);
+    height: fit-content;
+    color: white;
+}
+
+#MediaBlox{
+    text-align: left;
+}
+
+#MediaLink{
+    width: 50px;
+    filter: grayscale(30%);
+}
+
+#ImageProfile{
+    transform: translate(0px,0px);
+}
+
+#WidthImageProfile{
+    width: 600px;
+}
+
+#BadyPart{
+    grid-column: 1 / span 3;
+    display: inline-block;
+}
+
+#BodyPartPicture{
+    grid-column: 1 / span 1;
+    padding-bottom: 30px;
+    background-color:white;
+}
+
+#BodyPartContens{
+    grid-column: 2 / span 2;
+    padding: 10px;
+    background-color:white;
+}
+
+
+#AboutMePicture{
+    width: 360px;
+}
+#AboutMe{
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    background-color:white;
+}
+#MassageAboutMe{
+    padding: 25px;
+    text-align: left;
+    margin-top: 55px;
+    font-size: large;
+}
+
+#ActivityMassage{
+    text-align: right;
+    font-size: large;
+    padding: 25px;
+}
+
+#BloxAboutMe{
+   border-radius: 25px;
+   width: fit-content;
+}
+
+#SkillHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-column: 1 / span 3;
+}
+
+#MySkill{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: xx-large;
+    color: white
+}
+
+#Myskill1{
+    grid-column: 1 / span 1;
+    margin: 0 auto;
+}
+
+#Myskill2{
+    grid-column: 2 / span 1;
+    margin: 0 auto;
+}
+#Myskill3{
+    grid-column: 3 / span 1;
+    margin: 0 auto;
+}
+
+#SkillArea{
+    height: 680px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color:white;
+    box-shadow: 2px 2px 10px #00000080
+}
+#NameHeaderskill{
+    padding: 10px;
+    font-size:x-large;
+    height: 150px;
+}
+
+#ImgMySkill{
+    width: 120px;
+}
+
+#ProjectMadeBody{
+    grid-column: 1 / span 3;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#ProjectBlox1{
+    width: 700px;
+    height: 560px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #00000080
+}
+
+#ProjectImage{
+    padding: 25px;
+    width: 650px;
+    border-radius: 35px;
+}
+
+#MassageProject{
+    text-align: left;
+    font-size:small;
+    padding-left: 35px;
+    padding-bottom: 25px;
+}
+
+#MassageAssessment{
+    text-align: left;
+    font-size:medium;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+}
+
+#LinkAssingment{
+    padding-left: 25px;
+}
+
+
+#ButtonReadProjectMore{
+    border-radius: 25px;
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    font-size:large;
+}
+
+#References{
+    grid-column: 1 / span 3;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 15px;
+    text-align: left;
+    padding-left:15px;
+}
+
+.button1:hover {
+    background-color:gainsboro;
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex_container > div{
+    /* border: 1px solid blue; */
+    width: fit-content;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.flex_container2{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 70%;
+
+}
+.flex_container2 > div{
+    width: fit-content;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#VdoEx{
+    height: 768px;
+    width: 1366px 
+}
+
+#MyProjectHeader{
+    grid-column: 1 / span 1;
+    font-size: xx-large;
+    color: black;
+}
+
+#TopicHeader{
+    grid-column: 1 / span 3;
+    padding-left: 300px;
+    font-size: xx-large;
+    color: black;
+    text-align: left;
+}
+
+#BodyGame2D{
+    margin: 0 auto;
+    padding: 20px;
+    grid-column: 1 / span 3;;
+    width: 1200px;
+}
+#ImageGame2D{
+    padding: 10px;
+    width: 550px;
+}
+
+#BodyProject{
+    grid-column: 1 / span 3;
+    padding-bottom: 50px;
+}
+#TextVDOgame{
+    grid-column: 1 / span 3;
+    margin-left: 300px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    text-align: left;
+    color:black;
+}
+
+#Character2D {
+    grid-column: 1 / span 3;
+}
+#CharcterImg{
+    width: 1200px;
+}
+
+#Model3DPicture{
+    border-radius: 25px;
+    border: 2px solid  black;
+
+}
+
+@media only screen and (max-width: 1200px){
+    .grid-container{
+        grid-template-columns: 100%;
+    }
+
+    .flex_container{
+        display: inline;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .flex_container > div{
+
+        width: fit-content;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #HeaderProfile{
+        grid-column: 1 / span 1;
+    }
+
+    #TextProfile{
+        text-align: left;
+        font-size: x-large;
+        transform: translate(0px,0px);
+        height: fit-content;
+        color: white;
+    }
+    #ImageProfile{
+        transform: translate(0px,0px);
+        width: 600px;
+    }
+    
+    #WidthImageProfile{
+        width: 600px;
+    }
+
+    #BodyPartPicture{
+        grid-column: 1 / span 1;
+        text-align: center;
+        padding-bottom: 30px;
+        background-color:white;
+    }
+    #AboutMePicture{
+        width: 300px;
+        align-items: center;
+    }
+
+    #BadyPart{
+        grid-column: 1 / span 1;
+        
+    }
+
+    #BodyPartContens{
+        grid-column: 1 / span 1;
+        padding: 10px;
+        background-color:white;
+    }
+
+    #AboutMe{
+        padding: 10px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: large;
+        background-color:white;
+    }
+
+    #MassageAboutMe{
+        padding: 25px;
+        text-align: left;
+        margin-top: 55px;
+        font-size: medium;
+    }
+    
+    #ActivityMassage{
+        text-align: right;
+        font-size: medium;
+        padding: 25px;
+    }
+
+    .flex_container2{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .flex_container2 > div{
+        width: fit-content;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #SkillArea{
+        height: 680px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 30px;
+        background-color:white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+    #ImgMySkill{
+        width: 100px;
+    }
+    
+    #ProjectBlox1{
+        width: 620px;
+        height: 560px;
+        margin: 10px auto;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+    #ProjectMadeBody{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #Myskill1{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    }
+    
+    #Myskill2{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    
+    }
+    #Myskill3{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    }
+
+    #SkillArea{
+        height: 680px;
+        width: 320px;
+        margin: 10px;
+        border-radius: 30px;
+        background-color:white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+    #ProjectImage{
+        padding: 25px;
+        width: 560px;
+        border-radius: 35px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid-container > div{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .flex_container{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .flex_container > div{
+        margin: 0 auto;
+        width: fit-content;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #HeaderProfile{
+        grid-column: 1 / span 1;
+    }
+
+    #TextProfile{
+        text-align: left;
+        font-size: x-large;
+        transform: translate(0px,0px);
+        height: fit-content;
+        color: white;
+    }
+    #ImageProfile{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    
+    #WidthImageProfile{
+        width: 300px;
+    }
+
+    #BodyPartPicture{
+        grid-column: 1 / span 1;
+        text-align: center;
+        padding-bottom: 30px;
+        background-color:white;
+    }
+    #AboutMePicture{
+        width: 300px;
+        align-items: center;
+    }
+
+    #BadyPart{
+        grid-column: 1 / span 1;
+        
+    }
+    #BodyPartContens{
+        grid-column: 1 / span 1;
+        padding: 10px;
+        background-color:white;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    #AboutMe{
+        padding: 10px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: large;
+        background-color:white;
+    }
+
+    #BloxAboutMe{
+        border-radius: 25px;
+    }
+     
+
+    #MassageAboutMe{
+        padding: 25px;
+        text-align: left;
+        margin-top: 55px;
+        font-size: medium;
+    }
+    
+    #ActivityMassage{
+        text-align: left;
+        font-size: medium;
+        padding: 25px;
+    }
+
+    #SkillHeader{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        grid-column: 1 / span 1;
+    }
+
+    .flex_container2{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .flex_container2 > div{
+        width: fit-content;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #SkillArea{
+        height: 680px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 30px;
+        background-color:white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+    #ImgMySkill{
+        width: 100px;
+    }
+    
+    #ProjectBlox1{
+        width: 620px;
+        height: 560px;
+        margin: 10px auto;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+    #ProjectMadeBody{
+        grid-column: 1 / span 3;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    #SkillArea{
+        height: 680px;
+        width: 320px;
+        margin: 10px;
+        border-radius: 30px;
+        background-color:white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+
+
+
+    #Myskill1{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    }
+    
+    #Myskill2{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    
+    }
+    #Myskill3{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+    
+    }
+
+    #ProjectMadeBody{
+        grid-column: 1 / span 1;
+        margin: 0 auto;
+        padding: 10px;
+    }    
+
+    #ProjectImage{
+        padding: 25px;
+        width: 350px;
+        border-radius: 35px;
+    }
+
+    #ProjectBlox1{
+        width: 400px;
+        height: 560px;
+        margin: 8px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 2px 2px 10px #00000080
+    }
+}

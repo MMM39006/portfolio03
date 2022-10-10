@@ -1,0 +1,19 @@
+body{
+    animation:Completebackground 5s infinite;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
+
+}
+
+@keyframes Completebackground{
+    0% {background-color: rgb(102, 102, 168);}
+    25% {background-color: rgb(168, 102, 154);}
+    50% {background-color: rgb(168, 142, 102);}
+    100% {background-color: rgb(102, 168, 154);}
+}
